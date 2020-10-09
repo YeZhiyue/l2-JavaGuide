@@ -10,8 +10,6 @@
 
 <hr style=" border:solid; width:100px; height:1px;" color=#000000 size=1">
 
-
-
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
