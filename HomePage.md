@@ -2,7 +2,7 @@
 
 <h1 align="center">Java 学习/面试指南</h1>
 <p align="center">
-<a href="https://github.com/Snailclimb/JavaGuide" target="_blank">
+<a href="https://gitee.com/YeZhiyueGitee/JavaGuide" target="_blank">
 	<img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-3/logo.jpg"/>
 </a>
 
@@ -45,7 +45,6 @@
 - [说明](#说明)
 
 ## YeZhiyue
-
 
 * [我的邮箱](yezhiyue/我的阿里云/我的邮箱.md)
 * [我的阿里云](yezhiyue/我的阿里云/aliyun.md)
