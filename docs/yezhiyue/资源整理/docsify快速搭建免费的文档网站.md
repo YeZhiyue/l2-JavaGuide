@@ -33,7 +33,7 @@ npm i docsify-cli -g
 
 1.新建一个文件夹：mkdir docsify-demo
 
-2.进入文件夹并运行 docsify 初始化命令：cd docsify-demo -> docsify init ./
+2.进入文件夹并运行 docsify 初始化命令：cd docsify-demo -> docsify init ./ -> docsify serve ./
 
 3.然后访问：http://localhost:3000/
 
