@@ -1,0 +1,72 @@
+文件名：Bed.xml
+    <sql id="Bed_Base_Info_Column">
+       ${prefix}.id, ${prefix}.person_id, ${prefix}.bed_no, ${prefix}.type
+    </sql>
+文件名：Building.xml
+    <sql id="Building_Base_Info_Column">
+       ${prefix}.id, ${prefix}.description, ${prefix}.building_name, ${prefix}.building_no, ${prefix}.type, ${prefix}.position
+    </sql>
+文件名：Device.xml
+    <sql id="Device_Base_Info_Column">
+       ${prefix}.id, ${prefix}.device_name, ${prefix}.device_no, ${prefix}.device_pic, ${prefix}.type, ${prefix}.description, ${prefix}.ipv4, ${prefix}.ipv6, ${prefix}.mac
+    </sql>
+文件名：DictBed.xml
+    <sql id="DictBed_Base_Info_Column">
+       ${prefix}.id, ${prefix}.code, ${prefix}.cn_name, ${prefix}.en_name, ${prefix}.description
+    </sql>
+文件名：DictBuilding.xml
+    <sql id="DictBuilding_Base_Info_Column">
+       ${prefix}.id, ${prefix}.code, ${prefix}.cn_name, ${prefix}.en_name, ${prefix}.description
+    </sql>
+文件名：DictDevice.xml
+    <sql id="DictDevice_Base_Info_Column">
+       ${prefix}.id, ${prefix}.cn_name, ${prefix}.en_name, ${prefix}.description
+    </sql>
+文件名：DictDoor.xml
+    <sql id="DictDoor_Base_Info_Column">
+       ${prefix}.id, ${prefix}.cn_name, ${prefix}.en_name, ${prefix}.description
+    </sql>
+文件名：DictRoom.xml
+    <sql id="DictRoom_Base_Info_Column">
+       ${prefix}.id, ${prefix}.cn_name, ${prefix}.en_name, ${prefix}.description
+    </sql>
+文件名：DictSpace.xml
+    <sql id="DictSpace_Base_Info_Column">
+       ${prefix}.id, ${prefix}.cn_name, ${prefix}.en_name, ${prefix}.description
+    </sql>
+文件名：Door.xml
+    <sql id="Door_Base_Info_Column">
+       ${prefix}.id, ${prefix}.door_no, ${prefix}.door_name, ${prefix}.type, ${prefix}.description
+    </sql>
+文件名：MinioResource.xml
+    <sql id="MinioResource_Base_Info_Column">
+       ${prefix}.id, ${prefix}.minio_host, ${prefix}.bucket, ${prefix}.file_type, ${prefix}.old_file_name, ${prefix}.file_name, ${prefix}.url, ${prefix}.minio_deleted
+    </sql>
+文件名：Person.xml
+    <sql id="Person_Base_Info_Column">
+       ${prefix}.id, ${prefix}.person_no, ${prefix}.name, ${prefix}.sex, ${prefix}.birthday, ${prefix}.phone, ${prefix}.email, ${prefix}.qq, ${prefix}.weChat, ${prefix}.id_card, ${prefix}.person_pic
+    </sql>
+文件名：Plan.xml
+    <sql id="Plan_Base_Info_Column">
+       ${prefix}.id, ${prefix}.space_id,plan_name, ${prefix}.description, ${prefix}.start_time, ${prefix}.end_time
+    </sql>
+文件名：RelationDevice.xml
+    <sql id="RelationDevice_Base_Info_Column">
+       ${prefix}.id, ${prefix}.parent_type, ${prefix}.parent_id, ${prefix}.device_id
+    </sql>
+文件名：RelationDoor.xml
+    <sql id="RelationDoor_Base_Info_Column">
+       ${prefix}.id, ${prefix}.parent_type, ${prefix}.parent_id, ${prefix}.door_id
+    </sql>
+文件名：RelationMinio.xml
+    <sql id="RelationMinio_Base_Info_Column">
+       ${prefix}.id, ${prefix}.annex_type, ${prefix}.parent_type, ${prefix}.parent_id, ${prefix}.device_id
+    </sql>
+文件名：Room.xml
+    <sql id="Room_Base_Info_Column">
+       ${prefix}.id, ${prefix}.building_id,room_name, ${prefix}.room_no, ${prefix}.type, ${prefix}.floor, ${prefix}.description
+    </sql>
+文件名：Space.xml
+    <sql id="Space_Base_Info_Column">
+       ${prefix}.id, ${prefix}.space_name, ${prefix}.space_no, ${prefix}.type, ${prefix}.floor, ${prefix}.description
+    </sql>

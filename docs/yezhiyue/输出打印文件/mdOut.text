@@ -1,0 +1,55 @@
+<a id="_top"></a>
+
+## `目录:`
+
+<<<<<<< HEAD
+### <a href="#_1" rel="nofollow" target="_self"><font size=5 color=CC3333 face=微软雅黑>RedisTemplate基本介绍</font></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_1.1" rel="nofollow" target="_self">Redis数据结构以及数据操作</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_1.2" rel="nofollow" target="_self">Spring对RedisTemplate的封装</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_1.3" rel="nofollow" target="_self">RedisTemplate中定义了对5种数据结构操作</a>
+### <a href="#_2" rel="nofollow" target="_self"><font size=5 color=CC3333 face=微软雅黑>API:String</font></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_2.1" rel="nofollow" target="_self">增加</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_2.2" rel="nofollow" target="_self">删除</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_2.3" rel="nofollow" target="_self">查询</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_2.4" rel="nofollow" target="_self">修改，并且写入或者更新</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_2.5" rel="nofollow" target="_self">其他操作</a>
+### <a href="#_3" rel="nofollow" target="_self"><font size=5 color=CC3333 face=微软雅黑>List数据</font></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_3.1" rel="nofollow" target="_self">增加</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_3.2" rel="nofollow" target="_self">删除</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_3.3" rel="nofollow" target="_self">查询</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_3.4" rel="nofollow" target="_self">修改</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_3.5" rel="nofollow" target="_self">其他操作</a>
+### <a href="#_4" rel="nofollow" target="_self"><font size=5 color=CC3333 face=微软雅黑>Hash操作</font></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_4.1" rel="nofollow" target="_self">增加</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_4.2" rel="nofollow" target="_self">删除</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_4.3" rel="nofollow" target="_self">查询</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_4.4" rel="nofollow" target="_self">修改</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_4.5" rel="nofollow" target="_self">特殊配置</a>
+### <a href="#_5" rel="nofollow" target="_self"><font size=5 color=CC3333 face=微软雅黑>Set数据</font></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_5.1" rel="nofollow" target="_self">增加</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_5.2" rel="nofollow" target="_self">删除</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_5.3" rel="nofollow" target="_self">查询</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_5.4" rel="nofollow" target="_self">修改</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_5.5" rel="nofollow" target="_self">其他操作</a>
+### <a href="#_6" rel="nofollow" target="_self"><font size=5 color=CC3333 face=微软雅黑>ZSet集合</font></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_6.1" rel="nofollow" target="_self">增加</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_6.2" rel="nofollow" target="_self">删除</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_6.3" rel="nofollow" target="_self">查询</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_6.4" rel="nofollow" target="_self">修改</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_6.5" rel="nofollow" target="_self">其他操作</a>
+### <a href="#_7" rel="nofollow" target="_self"><font size=5 color=CC3333 face=微软雅黑>补充</font></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_7.1" rel="nofollow" target="_self">单元粒度时间段的指定 TimeUnit</a>
+=======
+### <a href="#_1" rel="nofollow" target="_self"><font size=5 color=CC3333 face=微软雅黑>安装+环境配置</font></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_1.1" rel="nofollow" target="_self">Docker安装</a>
+### <a href="#_2" rel="nofollow" target="_self"><font size=5 color=CC3333 face=微软雅黑>入门案例</font></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_2.1" rel="nofollow" target="_self">通过制定队列名称进行发送和接收(Hello World)</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_2.2" rel="nofollow" target="_self">任务队列&&MQ的防止数据丢失机制</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_2.3" rel="nofollow" target="_self">Exchange faint(随机分配队列)</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_2.4" rel="nofollow" target="_self">Exchange direct(直接指定routKey匹配到指定Queue)</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_2.5" rel="nofollow" target="_self">Exchange topic(通配符指定routKey，更加复杂的消息分发)</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_2.6" rel="nofollow" target="_self">MQ在RPC框架中的使用</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_2.7" rel="nofollow" target="_self">配置说明</a>
+### <a href="#_3" rel="nofollow" target="_self"><font size=5 color=CC3333 face=微软雅黑>部分技术要点</font></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#_3.1" rel="nofollow" target="_self">MQ如何防止信息丢失</a>
+>>>>>>> 1d18854992f77a3f72366616aac27d18bf023e91
