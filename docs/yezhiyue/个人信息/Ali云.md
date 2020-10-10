@@ -1,8 +1,10 @@
+---
 
+# 基本信息
 
-# 我的阿里云服务
+## 公网 | 私网
 
-## 我的服务
+*<a href="#_top" rel="nofollow" target="_self">返回目录</a>*
 
 1.1 公网
 
@@ -15,6 +17,8 @@
 ```java
 172.17.60.195
 ```
+
+![](http://qhif39llc.hn-bkt.clouddn.com/picgo/20201010232121.png)
 
 ## Redis
 
@@ -66,3 +70,9 @@ http://59.110.213.92:15672
 ```java
 http://59.110.213.92:3307
 ```
+
+## 域名
+
+*<a href="#_top" rel="nofollow" target="_self">返回目录</a>*
+
+![](http://qhif39llc.hn-bkt.clouddn.com/picgo/2020-10-10_232723.jpg)

@@ -108,9 +108,9 @@
 
 ## YeZhiyue
 
-* [我的邮箱](docs/yezhiyue/我的阿里云/我的账号(邮箱、密码).md)
-* [我的阿里云](docs/yezhiyue/我的阿里云/aliyun.md)
-* [J2EE 基础知识回顾](docs/java/J2EE基础知识.md)
+* [个人账号](docs/yezhiyue/个人信息/个人账号.md)
+* [Ali云](docs/yezhiyue/个人信息/Ali云.md)
+* [Cintsoft](docs/yezhiyue/个人信息/Cintsoft.md)
 
 ## Java
 
