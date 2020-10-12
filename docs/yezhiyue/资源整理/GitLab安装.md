@@ -43,3 +43,7 @@ http://59.110.213.92:880
 用户名：OurGitlab
 邮箱：739153436@qq.com
 密码：ourgitlab
+
+## 拉去一个代码（注意端口号）
+
+git clone http://59.110.213.92:880/OurGitLab/helloworld.git
