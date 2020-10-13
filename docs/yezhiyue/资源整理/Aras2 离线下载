@@ -23,3 +23,21 @@ docker run --name="l-ccaa" -d -p 6080:6080 -p 6081:6081 -p 6800:6800 -p 51413:51
 账号：ccaa
 密码：admin
 
+## 每周更新BT列表
+
+/etc/ccaa/upbt.sh
+
+## 其他常用命令
+
+#进入CCAA管理界面
+ccaa
+#查看ccaa状态
+ccaa status
+#启动ccaa
+ccaa start
+#停止ccaa
+ccaa stop
+#重启ccaa
+ccaa restart
+#查看当前版本
+ccaa -v
