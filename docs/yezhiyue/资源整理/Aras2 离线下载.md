@@ -27,6 +27,12 @@ docker run --name="l-ccaa" -d -p 6080:6080 -p 6081:6081 -p 6800:6800 -p 51413:51
 
 /etc/ccaa/upbt.sh
 
+但是实际情况是如果是进入docker容器中的话是没有bash环境的，不能直接通过一些简便的方式运行shell脚本文件
+
+docker exec -it 1c80a52e1619 /bin/sh
+
+source /etc/ccaa/upbt.sh 
+
 ## 其他常用命令
 
 ```java
